@@ -1,8 +1,6 @@
 package vm
 
-import (
-	"github.com/heyuan110/go-mega-code/model"
-)
+import "go-mega-code/model"
 
 type ProfileEditViewModel struct {
 	LoginViewModel

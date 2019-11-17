@@ -1,6 +1,11 @@
 mysql:
   charset: utf8
+  host: 127.0.0.1
   db: go-mega
-  host: localhost
-  password: password
   user: root
+  password: root
+mail:
+  smtp: smtp.qq.com
+  smtp-port: 587
+  user: no-reply@qq.com
+  password: xxxxxxx

@@ -1,10 +1,9 @@
 package controller
 
 import (
+	"go-mega-code/model"
 	"log"
 	"net/http"
-
-	"github.com/heyuan110/go-mega-code/model"
 )
 
 // middleAuth func

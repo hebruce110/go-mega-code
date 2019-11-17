@@ -1,9 +1,8 @@
 package vm
 
 import (
+	"go-mega-code/model"
 	"log"
-
-	"github.com/heyuan110/go-mega-code/model"
 )
 
 // LoginViewModel struct

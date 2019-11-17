@@ -1,9 +1,8 @@
 package model
 
 import (
+	"go-mega-code/config"
 	"log"
-
-	"github.com/heyuan110/go-mega-code/config"
 	"github.com/jinzhu/gorm"
 )
 

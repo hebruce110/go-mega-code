@@ -1,12 +1,11 @@
 package main
 
 import (
+	"go-mega-code/controller"
+	"go-mega-code/model"
 	"log"
 	"net/http"
-
 	"github.com/gorilla/context"
-	"github.com/heyuan110/go-mega-code/controller"
-	"github.com/heyuan110/go-mega-code/model"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
