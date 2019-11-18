@@ -227,6 +227,7 @@ func resetPasswordRequestHandler(w http.ResponseWriter, r *http.Request) {
 			}
 
 			content := contentByte.String()
+			fmt.Println(content)
 			go sendEmail(email, "Reset Password", content)
 			http.Redirect(w, r, "/login", http.StatusSeeOther)
 		}
